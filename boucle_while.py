@@ -1,3 +1,18 @@
+"""COMMENT UTILISER LA BOUCLE WHILE ?
+
+La boucle while est utilisée pour exécuter du code tant qu'une certaine condition est vérifiée.
+
+Cette boucle est très utile lorsqu'on ne sait pas combien de fois nous devons itérer.
+
+Syntaxe de la boucle while
+Une boucle while s'écrit de cette manière :
+
+while condition:
+    code
+    ....
+"""
+
+
 i = 0
 while i < 10:
     print('Salut')
@@ -9,10 +24,13 @@ else:
 # ---------------------------------------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------------------------------------
 
-continuer ="y"
-while continuer == "y":
-    print("On continue")
-    continuer = input("Voulez-vous continuer ? y/n\n")
+continuer = "o"
+while continuer == "o":
+    print("On continue !")
+    continuer = input("Voulez-vous continuer ? o/n\n")
+    if continuer != "o":
+        break
+
 
 # ---------------------------------------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------------------------------------
