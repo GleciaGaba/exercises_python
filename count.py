@@ -126,7 +126,7 @@ list_of_transaction(transactions)
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-"""def analyse_de_char():
+def analyse_de_char():
     type_by_user = input("Please, type here your frase: ").lower()
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
@@ -136,7 +136,7 @@ list_of_transaction(transactions)
             print(f"Le caractère '{lettre}' apparait {compt} fois")
 
 
-analyse_de_char()"""
+analyse_de_char()
 
 # -----------------------------------------------------------------------------------------------------------------------
 """

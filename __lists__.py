@@ -82,3 +82,6 @@ print(liste[-1][0])  # Ruby
 print(liste[0][0:2])  # Py
 print(liste[1][1])  # C++
 print(liste[1][:2])  # ['Java', 'C++]
+
+
+
